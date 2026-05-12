@@ -6,9 +6,6 @@ A PowerShell script to clean up OneDrive\Downloads folders from FSLogix profile 
 
 This script mounts one or more FSLogix profile container disk images, removes the contents of the OneDrive\Downloads folder, and then safely dismounts the disks. It uses built-in Windows Storage cmdlets rather than Hyper-V tools, making it lightweight and dependency-free.
 
-**Author:** Joey Verlinden  
-**Use at your own risk!**
-
 ## Features
 
 - ✅ Single VHD/VHDX processing or batch processing of entire directories
