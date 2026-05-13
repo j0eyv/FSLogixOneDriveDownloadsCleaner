@@ -64,16 +64,19 @@ Enable logging to a specified folder:
 Process all VHD/VHDX files under a directory:
 ```powershell
 .\Cleanup-FSLogix-OneDriveDownloads.ps1 -ImagePath "F:\" -DriveLetter E
+.\Cleanup-FSLogix-OneDriveDownloads.ps1 -ImagePath "\\server\share\Profiles" -DriveLetter E
 ```
 
 ### Batch Processing with Preview
 ```powershell
 .\Cleanup-FSLogix-OneDriveDownloads.ps1 -ImagePath "F:\" -DriveLetter E -WhatIf
+.\Cleanup-FSLogix-OneDriveDownloads.ps1 -ImagePath "\\server\share\Profiles" -WhatIf
 ```
 
 ### Batch Processing with Logging
 ```powershell
 .\Cleanup-FSLogix-OneDriveDownloads.ps1 -ImagePath "F:\" -DriveLetter E -LogFolder "C:\temp\logfiles"
+.\Cleanup-FSLogix-OneDriveDownloads.ps1 -ImagePath "\\server\share\Profiles" -DriveLetter E -LogFolder "C:\temp\logfiles"
 ```
 
 ## How It Works
